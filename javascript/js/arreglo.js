@@ -88,11 +88,19 @@ console.log(carrito);
 //NUEVO ITEM
 //+1 ARRAY
 
-// Agregar un nuevo registro al arreglo carrito
-let nuevoItem = { name: 'arroz', cantidad: 2, precio: 1.2 };
-carrito.push(nuevoItem);
-// Imprimir el arreglo carrito actualizado
-console.log("Carrito actualizado:");
+/// Ordenar el carrito por nombre de artículo, alfabeticamente
+carrito.sort((a, b) => {
+    if (a.name < b.name) {
+        return -1;
+    }
+    if (a.name > b.name) {
+        return 1;
+    }
+    return 0;
+});
+
+// Imprimir el carrito ordenado por nombre
+console.log("Carrito ordenado por nombre:");
 carrito.forEach(item => {
     console.log("Item: " + item.name);
     console.log("Cantidad: " + item.cantidad);
@@ -104,4 +112,21 @@ carrito.forEach(item => {
 
 
 
+
 console.log(carrito);
+
+
+
+
+//2DO EJEMPLO con numeros
+// Definir un arreglo de números desordenados
+let numeros = [10, 4, 6, 1, 8, 3, 5];
+
+// Ordenar el arreglo de números de forma ascendente
+numeros.sort((num1 , num2) => num1 -num2);
+
+//numeros.sort((a, b) => a - b);
+
+// Imprimir el arreglo ordenado
+console.log("Arreglo de números ordenado de forma ascendente:");
+console.log(numeros);
