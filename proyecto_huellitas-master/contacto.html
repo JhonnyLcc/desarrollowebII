@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/huellita.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/contacto.css">
+    <title>Jhonny Leon</title>
+</head>
+<body>
+    <header>
+        <h1>Jhonny Leon</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="audiovisuales.html">Galeria</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+      <div class="contenedor-formulario">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="nombre" required  minlength="3">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="apellido" required minlength="3">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="email" required>
+            <label for="pais">Pais:</label>
+            <select name="pais" id="pais">
+                <option value="Colombia">Colombia</option>
+                <option value="brazil">Brazil</option>
+                <option value="argentina">Argentina</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="francia">Francia</option>
+                <option value="Canada">Canada</option>
+                <option value="ecuador">Ecuador</option>
+                <option value="chile">Chile</option>
+                <option value="alemania">Alemania</option>
+                <option value="EEUU">EEUU</option>
+               </select>
+               <label for="comentario">Comentario:</label>
+               <textarea name="comentario" id="comentario" placeholder="comentario.."></textarea>
+               <label for="motivo">Motivo contacto:</label>
+               <input type="radio" id="motivo" name="motivo"><i>Registrar</i>
+               <input type="radio" id="motivo" name="motivo"><i>Compra</i> 
+               <input type="radio" id="motivo" name="motivo"><i>Reclamos</i> 
+               <input type="submit" value="Enviar">
+
+        </form>
+      </div>
+    <footer class="footer">
+        <p>Derechos reservados &copy jullian 2023</p>
+    </footer>
+</body>
+</html>
