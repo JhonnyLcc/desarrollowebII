@@ -11,10 +11,7 @@ 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
 
 
 token desarrollowebII:
-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
-
-all:
-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
+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
 
 
 participaciones:
@@ -39,4 +36,4 @@ como podemos adicionar un nuevo item y cantidad
 adicionar el item del precio y tenemos colocarle como tipo valor float, y que tiene que
 imprimir el item, cantidad y el precio, y total que va ser la cantidad por el precio
 
-actualizado 10
+buscar como ordenar una array normal
