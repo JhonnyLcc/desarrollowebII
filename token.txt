@@ -1,6 +1,4 @@
-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
 
-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 
 
 clone:
 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
@@ -10,6 +8,11 @@ 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
 
 token desarrolloweb:
 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
+
+
+token desarrollowebII:
+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
+
 
 
 participaciones:
@@ -34,4 +37,4 @@ como podemos adicionar un nuevo item y cantidad
 adicionar el item del precio y tenemos colocarle como tipo valor float, y que tiene que
 imprimir el item, cantidad y el precio, y total que va ser la cantidad por el precio
 
-actualizado 2
+actualizado 5
