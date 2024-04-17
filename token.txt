@@ -34,3 +34,4 @@ como podemos adicionar un nuevo item y cantidad
 adicionar el item del precio y tenemos colocarle como tipo valor float, y que tiene que
 imprimir el item, cantidad y el precio, y total que va ser la cantidad por el precio
 
+actualizado
