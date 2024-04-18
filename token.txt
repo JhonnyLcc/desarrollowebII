@@ -14,26 +14,4 @@ token desarrollowebII:
 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
 
 
-participaciones:
-practcar l
 
-realizar las siguientes conversiones:
-1.  va aver una variable 'let var1=15.25;'
-2. otra 'let var2=0;'
-3. 'let var3=tru'
-4. 'let var4 ="100"'
-5. 'let varx;'
-
-hacer la combinacion de estos 4 y espeficiar entre comentarios espeficitar cual de estos
-pasa a conversiones explicitas
-
-es decir var1 es igual a var2, otra var3 sera igual a var4?
-
--
-como podemos adicionar un nuevo item y cantidad
-
---
-adicionar el item del precio y tenemos colocarle como tipo valor float, y que tiene que
-imprimir el item, cantidad y el precio, y total que va ser la cantidad por el precio
-
-buscar como ordenar una array normal
