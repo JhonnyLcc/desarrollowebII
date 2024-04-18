@@ -33,3 +33,14 @@ y luego poner el siguiente comando en la carpeta de javascript
 node arreglo.js
 
 // el arreglo.js, depende del nombre que tengamos en los proyectos de la carpeta dejs
+
+Preguntas:
+//generar un array nombre: "juan" nota:20-100. y tiene generar un array de 10 elementos. 
+tiene que mostrar la nota mayor, menor y promedio
+
+
+
+
+
+
+
