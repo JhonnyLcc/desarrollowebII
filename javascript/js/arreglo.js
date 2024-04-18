@@ -64,11 +64,13 @@ console.log(carrito);
 
 // Definir el arreglo carrito con objetos que contienen artículo, cantidad y precio
 let carrito = [
-    { name: 'leche', cantidad: 1, precio: 1.5 },
-    { name: 'carne', cantidad: 2, precio: 3.25 },
+    { name: 'calabaza', cantidad: 1, precio: 1.5 },
+    { name: 'arina', cantidad: 2, precio: 3.25 },
     { name: 'fideo', cantidad: 1, precio: 0.75 },
     { name: 'papa', cantidad: 3, precio: 0.5 }
 ];
+
+
 
 // Imprimir elementos del carrito con etiquetas
 console.log("Elementos del carrito:");
@@ -85,22 +87,8 @@ carrito.forEach(item => {
 console.log(carrito);
 
 
-//NUEVO ITEM
-//+1 ARRAY
-
-/// Ordenar el carrito por nombre de artículo, alfabeticamente
-carrito.sort((a, b) => {
-    if (a.name < b.name) {
-        return -1;
-    }
-    if (a.name > b.name) {
-        return 1;
-    }
-    return 0;
-});
-
 // Imprimir el carrito ordenado por nombre
-console.log("Carrito ordenado por nombre:");
+console.log("Carrito ordenado por ETIQUETAS:");
 carrito.forEach(item => {
     console.log("Item: " + item.name);
     console.log("Cantidad: " + item.cantidad);
@@ -111,9 +99,24 @@ carrito.forEach(item => {
 });
 
 
+//ESTA ES UNA FORMA PARA NO ESTAR DUPLICANDO EL ARRAY DE CARRITO, Y MEJOR CREAR OTRO LET COMO ASIGNEMOS LA FUNCION POR SEPARADO QUE QUEREMOS
+//este falla si es diferenciado por mayusculas y minusculas
+console.log("carrito por precio");
+let carritoporPrecio = carrito.slice().sort((a,b) => a.precio - b.precio);
+console.log(carritoporPrecio);
+
+// Ordenar el carrito por precio
+console.log("carrito por nombre");
+let carritoporNombre = carrito.slice().sort((a,b) => a.name.localeCompare(b.name));
+console.log(carritoporNombre);
 
 
-console.log(carrito);
+
+
+
+
+
+//console.log(carrito);
 
 
 
@@ -128,5 +131,8 @@ numeros.sort((num1 , num2) => num1 -num2);
 //numeros.sort((a, b) => a - b);
 
 // Imprimir el arreglo ordenado
+console.log("EJERCICIO DE CREAR NUEVO ARRAY SIMPLE PARA ORDENARLO")
 console.log("Arreglo de números ordenado de forma ascendente:");
 console.log(numeros);
+
+
