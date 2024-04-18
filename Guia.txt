@@ -32,6 +32,7 @@ sudo apt install nodejs
 y luego poner el siguiente comando en la carpeta de javascript
 node arreglo.js
 
+<<<<<<< HEAD
 // el arreglo.js, depende del nombre que tengamos en los proyectos de la carpeta dejs
 
 Preguntas:
@@ -44,3 +45,6 @@ tiene que mostrar la nota mayor, menor y promedio
 
 
 
+=======
+// el arreglo.js, depende del nombre que tengamos en los proyectos de la carpeta dejs
+>>>>>>> 414360065374f9a1b590c409d1e2ce55f8c3406c
