@@ -1,27 +1,27 @@
-let a=10;
-let b=5;
-a+=1;
-console.log(a);
+// let a=10;
+// let b=5;
+// a+=1;
+// console.log(a);
 
-a=a+b;
-console.log("a+b:"+a);
-a=11;
+// a=a+b;
+// console.log("a+b:"+a);
+// a=11;
 
-a+=b;
-console.log("a+=b:" +a);
+// a+=b;
+// console.log("a+=b:" +a);
 
-a++;
-console.log("a++: "+a)
+// a++;
+// console.log("a++: "+a)
 
-a--;
-console.log("a-- "+a)
+// a--;
+// console.log("a-- "+a)
 
 
-if (a%2==0)
-        console.log("a es par")
-    else
-        console.log("a es impar")
-console.log(a+b+Number("5"))
+// if (a%2==0)
+//         console.log("a es par")
+//     else
+//         console.log("a es impar")
+// console.log(a+b+Number("5"))
 
 
 
@@ -64,76 +64,83 @@ console.log(a+b+Number("5"))
 // console.log("Promedio:", promedio.toFixed(2));
 
 
-//ACA DEFINIMOS LOS RANGOS-----------------------------------------------
-console.log("RANGOS------------------")
-// Función para generar un número aleatorio entre min y max
-function getRandomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-// Función para obtener el rango de acuerdo a la nota
-function obtenerRango(nota) {
-    let rango;
-    switch(true) {
-        case (nota < 5):
-            rango = 'insuficiente';
-            break;
-        case (nota >= 5 && nota < 6):
-            rango = 'suficiente';
-            break;
-        case (nota >= 6 && nota < 7):
-            rango = 'bien';
-            break;
-        case (nota >= 7 && nota < 9):
-            rango = 'notable';
-            break;
-        case (nota >= 9):
-            rango = 'sobresaliente';
-            break;
-        default:
-            rango = 'fuera de rango';
-            break;
-    }
-    return rango;
-}
+//ACA DEFINIMOS LOS RANGOS---------------------------------------------------------------
+// console.log("RANGOS------------------")
+// // Función para generar un número aleatorio entre min y max
+// function cargarNotas(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
 
 
-// Generar un array de 10 elementos 
-let estudiantes = [
-    { nombre: 'Juan', nota: 0 },
-    { nombre: 'Pedro', nota: 0 },
-    { nombre: 'María', nota: 0 },
-    { nombre: 'Ramiro', nota: 0 },
-    { nombre: 'Johan', nota: 0 },
-    { nombre: 'Carlos', nota: 0 },
-    { nombre: 'Fabian', nota: 0 },
-    { nombre: 'Miguel', nota: 0 },
-    { nombre: 'José', nota: 0 },
-    { nombre: 'Lopez', nota: 0 }
-];
+// // Función para obtener el rango de acuerdo a la nota
+// function obtenerRango(nota) {
+//     let rango;
+//     switch(true) {
+//         case (nota < 5):
+//             rango = 'insuficiente';
+//             break;
+//         case (nota >= 5 && nota < 6):
+//             rango = 'suficiente';
+//             break;
+//         case (nota >= 6 && nota < 7):
+//             rango = 'bien';
+//             break;
+//         case (nota >= 7 && nota < 9):
+//             rango = 'notable';
+//             break;
+//         case (nota >= 9):
+//             rango = 'sobresaliente';
+//             break;
+//         default:
+//             rango = 'fuera de rango';
+//             break;
+//     }
+//     return rango;
+// }
 
-// Asignar notas aleatorias a cada estudiante
-for (let estudiante of estudiantes) {
-    estudiante.nota = getRandomNumber(1, 10);
-}
-console.log(estudiantes)
 
-// Agrupar estudiantes por rango de notas
-let grupos = {};
-for (let estudiante of estudiantes) {
-    let rango = obtenerRango(estudiante.nota);
-    if (!grupos[rango]) {
-        grupos[rango] = [];
-    }
-    grupos[rango].push(estudiante.nombre);
-}
+// // Generar un array de 10 elementos 
+// let estudiantes = [
+//     { nombre: 'Juan', nota: 0 },
+//     { nombre: 'Pedro', nota: 0 },
+//     { nombre: 'María', nota: 0 },
+//     { nombre: 'Ramiro', nota: 0 },
+//     { nombre: 'Johan', nota: 0 },
+//     { nombre: 'Carlos', nota: 0 },
+//     { nombre: 'Fabian', nota: 0 },
+//     { nombre: 'Miguel', nota: 0 },
+//     { nombre: 'José', nota: 0 },
+//     { nombre: 'Lopez', nota: 0 }
+// ];
 
-// Imprimir estudiantes por grupo de manera más concisa
-for (let rango in grupos) {
-    let estudiantesEnGrupo = grupos[rango].join(', ');
-    console.log(`Estudiantes en el grupo de ${rango} son: ${estudiantesEnGrupo}`);
-}
+// // Asignar notas aleatorias a cada estudiante
+// for (let estudiante of estudiantes) {
+//     estudiante.nota = cargarNotas(1, 10);
+// }
+// console.log(estudiantes)
 
+// // Agrupar estudiantes por rango de notas
+// let grupos = {};
+// for (let estudiante of estudiantes) {
+//     let rango = obtenerRango(estudiante.nota);
+//     if (!grupos[rango]) {
+//         grupos[rango] = [];
+//     }
+//     grupos[rango].push(estudiante.nombre);
+// }
+
+// // Imprimir estudiantes por grupo de manera más concisa
+// function impNotas(grupos) {
+//     for (let rango in grupos) {
+//         let estudiantesEnGrupo = grupos[rango].join(', ');
+//         console.log(`Estudiantes en el grupo de ${rango} son: ${estudiantesEnGrupo}`);
+//     }
+// }
+
+// // Llamada a la función
+// impNotas(grupos);
+
+//-------------------------------------------------------------------------
 
 //variables globales
 // let nota=[
@@ -190,3 +197,6 @@ for (let rango in grupos) {
 
 // cargarNotas();
 // impNotas();
+
+
+//-------------------------
