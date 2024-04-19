@@ -39,12 +39,15 @@ Preguntas:
 //generar un array nombre: "juan" nota:20-100. y tiene generar un array de 10 elementos. 
 tiene que mostrar la nota mayor, menor y promedio
 
+listar notas:
+insuficiente: [2,4]
+suficiente: [5,6)
+bien: [7,8)
+notable: [9)
+sobresaliente: [10)
 
 
 
+funcion para cargar notas
 
-
-
-=======
-// el arreglo.js, depende del nombre que tengamos en los proyectos de la carpeta dejs
->>>>>>> 414360065374f9a1b590c409d1e2ce55f8c3406c
+> generar un array y tomar
