@@ -32,7 +32,7 @@ sudo apt install nodejs
 y luego poner el siguiente comando en la carpeta de javascript
 node arreglo.js
 
-<<<<<<< HEAD
+
 // el arreglo.js, depende del nombre que tengamos en los proyectos de la carpeta dejs
 
 Preguntas:
