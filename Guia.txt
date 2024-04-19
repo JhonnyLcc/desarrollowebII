@@ -51,3 +51,8 @@ sobresaliente: [10)
 funcion para cargar notas
 
 > generar un array y tomar
+
+
+
+
+CLASE 09------
