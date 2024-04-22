@@ -56,3 +56,21 @@ funcion para cargar notas
 
 
 CLASE 09------
+
+buscar 4 proyectos
+	- fijarse que los proyectos tengan html, css, javascript 30%
+
+
+links:
+https://github.com/vazeri/vazeri.github.io.git
+https://github.com/dqarias/Portafolio.git
+https://github.com/ulisesedu7/Portafolio.git
+https://github.com/camila-lopez/miPortafolio.git
+
+ecommerce:
+https://github.com/MnBrunelli/EcommerceJavascript.git
+
+otros:
+https://github.com/LucasKruse/Calculadora.git
+https://github.com/HeymeCoraspe/Juego_Blackjack.git
+https://github.com/isradev-git/ChessWave.git
