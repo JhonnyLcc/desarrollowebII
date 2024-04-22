@@ -1,4 +1,9 @@
 /*
+    * descripcion: Programa ejercicio 4
+    * deasrrollador: Jhonny Leon
+    * fecha: 24.04.21
+    * cambios: ninguno
+
     * Ejercicio4.- Escribe un programa que pida una frase y escriba:(30Pts)
     • Cuantas veces aparece la letra “o”. Ejemplo Hola → 1
     • Las vocales que aparecen. Ejemplo Hola → 2
@@ -11,10 +16,6 @@
     * Se cuentan las veces que aparece cada vocal en la frase.
     * 
     
-    * descripcion: Programa ejercicio 4
-    * deasrrollador: Jhonny Leon
-    * fecha: 24.04.21
-    * cambios: ninguno
  */
 
     // Verificar si estamos en un entorno de navegador o Node.js

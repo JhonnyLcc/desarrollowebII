@@ -1,4 +1,9 @@
 /*
+    * descripcion: Programa ejercicio 2
+    * deasrrollador: Jhonny Leon
+    * fecha: 24.04.21
+    * cambios: ninguno
+
     Ejercicio2.- Escribir un programa donde nos solicite un usuario y contraseña, validar la contraseña con 
     “D153n0W3b2” y el usuario debería ser cualquiera de los siguientes nombres: juan, pedro, maria, raul.
     (20Pts)
@@ -11,13 +16,7 @@
     
 
 
-    * descripcion: Programa ejercicio 4
-    * deasrrollador: Jhonny Leon
-    * fecha: 24.04.21
-    * cambios: ninguno
 */
-
-
 
 
 // Función para validar el usuario

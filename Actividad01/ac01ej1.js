@@ -1,13 +1,16 @@
 /*
-    Ejercicio1.- Escribir un programa donde nos de la bien venida y nos indique en que navegador estamos
-    ejecutando.(10Pts)
-
-
-
-    * descripcion: Programa ejercicio 4
+    * descripcion: Programa ejercicio 1
     * deasrrollador: Jhonny Leon
     * fecha: 24.04.21
     * cambios: ninguno
+
+    Ejercicio1.- Escribir un programa donde nos de la bien venida y nos indique en que navegador estamos
+    ejecutando.(10Pts)
+
+    VALIDACION:
+    * dar una bienvenida
+
+
 */
 
 function detectarNavegador() {

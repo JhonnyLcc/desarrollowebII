@@ -1,4 +1,9 @@
 /*
+    * descripcion: Programa ejercicio 3
+    * deasrrollador: Jhonny Leon
+    * fecha: 24.04.21
+    * cambios: ninguno
+    
     * Ejercicio3.- Escribir un programa para imprimir N numeros primos generados de forma aleatorio y 
     cargado en un array que sean menores al 110.(20Pts)
 
@@ -8,10 +13,6 @@
     * La función generarNumerosPrimos() genera los números primos y los almacena en un array.
     * La cantidad de números primos a generar se define en la variable cantidadNumerosPrimos.
     
-    * descripcion: Programa ejercicio 3
-    * deasrrollador: Jhonny Leon
-    * fecha: 24.04.21
-    * cambios: ninguno
  */
 
 function esPrimo(num) {

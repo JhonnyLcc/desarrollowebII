@@ -1,17 +1,19 @@
 /*
+    * descripcion: Programa ejercicio 5
+    * deasrrollador: Jhonny Leon
+    * fecha: 24.04.21
+    * cambios: ninguno
+
     * Ejercicio5.- En base a 2 array de nombres y apellidos, genere un nuevo array combinando de forma 
+
     aleatoria ambos, formatee los nombres convirtiendo el primer elemento del nombre y apellido en 
     mayúscula y el resto en minúscula .(20Pts)
-
+    
     VALIDACION:
     * Se generan nombres aleatorios combinando nombres y apellidos de dos arrays.
     * Los nombres se formatean convirtiendo la primera letra en mayúscula y el resto en minúscula.
     
 
-    * descripcion: Programa ejercicio 5
-    * deasrrollador: Jhonny Leon
-    * fecha: 24.04.21
-    * cambios: ninguno
  */
 
 
@@ -39,5 +41,6 @@ let nombres = ["juan", "pedro", "maria"];
 let apellidos = ["lopez", "gonzalez", "sanchez"];
 
 // Generar nombres aleatorios y mostrarlos
+console
 let nombresCompletos = generarNombreCompleto(nombres, apellidos);
 console.log(nombresCompletos);
