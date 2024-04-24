@@ -14,6 +14,10 @@ token desarrollowebII:
 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
 
 nuevo: 
+<<<<<<< HEAD
 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
+=======
+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
+>>>>>>> 2f7b308ca12988c4032477b3b8b7f202e88c4b51
 
 

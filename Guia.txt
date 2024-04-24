@@ -74,6 +74,7 @@ otros:
 https://github.com/LucasKruse/Calculadora.git
 https://github.com/HeymeCoraspe/Juego_Blackjack.git
 https://github.com/isradev-git/ChessWave.git
+<<<<<<< HEAD
 
 
 clase 11---------------
@@ -107,3 +108,5 @@ qu se hacen con esos datos, guardarlos en un array, el cual hay que listarlo
 
 - convertir el formulario o formatear el formulario y el listado para utilizar hojas de estilo, como recomendacion boostrap integrar dentro del formulario
 
+=======
+>>>>>>> 2f7b308ca12988c4032477b3b8b7f202e88c4b51

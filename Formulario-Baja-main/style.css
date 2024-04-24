@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body, html
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    max-height: 100vh;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #302387, #36359d, #3a46b3, #3e58c9, #406ae0, #4d76ea, #5981f3, #658dfd, #7995fc, #8a9dfb, #98a5fa, #a6aef9);
+}
+
+.header
+{
+    display: flex;
+}
+
+
+.logo {
+    text-align: center; /* Centra el contenido horizontalmente */
+    
+}
+
+.logo img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 480px;
+
+}
+
+/*titulo de UPDS*/
+.divTitulo
+{
+    position: relative;
+    /*left: 100px;*/
+    left: -1400px;
+    color: whitesmoke;
+    
+}
+
+/*propiedades de titulo UPDS*/
+#titulo
+{
+    font-weight: 900;
+    
+    position: relative;
+    top: 26px;
+    justify-content: center;
+    
+}
+
+.nombre
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 15px;
+    left: 70px;
+    background-color: #0b55c4;
+    border-color: #0b55c4;
+    border-radius: 20px;
+    height: 35px;
+    width: 197px;
+    top: 25px;
+}
+
+#clickNombre
+{
+    text-decoration: none;
+}
+
+#nombreReal
+{
+    color: white;
+    position: relative;
+    left: -7px;
+}
+
+#imagenNombre
+{
+    position: relative;
+    left: -24px;
+}
+
+.imagen
+{
+    background-image: url("./imgs/imagenFondo.jpg");
+    background-position: center center;
+    background-size: 100% auto; /* Ajustar al ancho y alargar automáticamente */
+    height: 431px;
+    width: 100%;
+    color: whitesmoke;
+    
+}
+
+.imagen h1 
+{
+    position: relative;
+    left: 480px;
+    top: 250px;
+    font-weight: 700;
+}
+
+.opciones
+{
+    display: flex;
+    height: 200px;
+}
+
+.opciones > div
+{
+    height: 100px;
+    margin: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.opciones button
+{
+    margin-top: 15px;
+    background-color: #0b55c4;
+    border-color: #0b55c4;
+    position: relative;
+    left: -3px;
+}
+
+.tablita
+{
+    position: relative;
+    top: 100px;
+}
+
+#botonMenuReporte
+{
+    position: relative;
+    left: 1240px;
+    top: 20px;
+}
+
+.comentarios
+{
+    position: absolute;
+    top: 70px;
+    left: 435px;
+}
+
+.alta
+{
+    position: relative;
+    top: 50px;
+    font-size: 13px;
+}
+
+.alta *
+{
+    margin: 1px;
+    margin-left: 2px;
+
+    /*aca se añade el color de los textos dentro del formulario alta*/
+    color: white;
+}
+
+#data
+{
+    background-color: rgb(29, 56, 143);
+    width: 795px;
+    height: 720px;
+}
+
+#dataAct
+{
+    background-color: #b059b1;
+    width: 795px;
+    height: 720px;
+}
+
+#dataAct button
+{
+    background-color: pink;
+    color: black;
+}
+
+#imagenFormulario
+{
+    background-image: url("./imgs/fondoFormulario2.jpeg");
+    width: 507px;
+    position: relative;
+    bottom: 722px;
+    height: 1000px;
+    left: 795px;
+}
+
+#imagenFormularioAct
+{
+    background-image: url("./imgs/fondoActualizar2.png");
+    width: 507px;
+    position: relative;
+    bottom: 722px;
+    height: 1000px;
+    left: 795px;
+}
+
+#show,#hide
+{
+    position: relative;
+    left: 420px;
+    bottom: 690px;
+    background-color: #BF40BF;
+    border-color: #BF40BF;
+}
+
+#showAct,#hideAct
+{
+    position: relative;
+    left: 420px;
+    bottom: 690px;
+    background-color: #BF40BF;
+    border-color: #BF40BF;
+}
+
+#botonEnviar, #botonRegresar
+{
+    position: relative;
+    left: 550px;
+    bottom: 80px;
+    background-color: #BF40BF;
+    border-color: #BF40BF;
+}
+
+#menuBaja
+{
+    background-image: url("imgs/fondoBorrar.jpeg");
+    position: relative;
+    top: 80px;
+    left: 240px;
+    height: 478px;
+    width: 850px;
+    text-align: center;
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+}
+
+#dataBaja
+{
+    position: relative;
+    left: 200px;
+    top: 150px;
+    color: white;
+}
+
+#dataBaja input
+{
+    position: relative;
+    left: 320px;
+    top: 10px;
+}
+
+#dataBaja button
+{
+    background-color: #BF40BF;
+    border-color: #BF40BF;
+    margin: 10px;
+}
+
+#imagenBuscar
+{
+    position: relative;
+    top: 50px;
+    background-image: url("imgs/fondoBuscar.jpg");
+    height: 250px;
+    width: 1295px;
+}
+
+#camposBuscar
+{
+    position: relative;
+    left: 485px;
+    top: 50px;
+}
+
+#camposBuscar * 
+{
+    margin: 10px;
+}
+
+#imagenBuscar button
+{
+    background-color: #BF40BF;
+    border-color: #BF40BF;
+    margin: 10px;
+}
+
+#botonRegresarBuscar
+{
+    position: relative;
+    left: 47px;
+}
+
+#dataBuscar
+{
+    position: relative;
+    top: 50px;
+}
+
+#dataActualizar button
+{
+    background-color: #BF40BF;
+    border-color: #BF40BF;
+    margin: 10px;
+    color: black;
+}
+
+#menuActualizar
+{
+    background-image: url("imgs/fondoActualizar.jpeg");
+    position: relative;
+    top: 80px;
+    left: 240px;
+    height: 478px;
+    width: 800px;
+    text-align: center;
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+}
+
+#dataActualizar h2
+{
+    position: relative;
+    color: black;
+}
+
+#dataActualizar
+{
+    position: relative;
+    left: 0px;
+    top: 150px;
+    color: white;
+}
+
+#dataActualizar input
+{
+    position: relative;
+    left: 320px;
+    top: 10px;
+}
+
+#botonRegresarActualizar, #botonEnviarActualizar
+{
+    position: relative;
+    bottom: 80px;
+    left: 485px;
+    background-color: #BF40BF;
+    border-color: #BF40BF;
+}
+
+
+/*
+    codigo modificado
+*/
+
+
+
+
+
