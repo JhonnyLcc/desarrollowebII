@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>HTML Manipulation with JavaScript</title>
+</head>
+<body>
+    <div class="content" id="content_first">
+    <p>Contenido dinamico aca</p>
+    </div><!-- #content_first -->
+
+    <div class="content" id="content_second" hidden> 
+    <p>Segunda seccion</p>
+    </div><!--#content_second-->
+    <script>
+        let body = document.getElementsByTagName("body")[0];
+        //console.log(body.innerHTML);
+        //body.innerHTML = "<p> contenido borrado de body</p>";
+        let elementos = document.getElementsByTagName("*");
+        console.log(elementos);
+    
+         for (elemento of elementos)
+             if (elemento.id == "content_second"){
+                elemento.innerHTML = "<p> segunda section </p>";
+                elemento.removeAttribute("hidden");
+
+            }
+            
+    </script>
+</body>
+</html>
+
+<!--evitar ocupar el light ya que pone datos basura
+* una linea de codigo es un proceso dentro de un lenguaje de programacion
+-->

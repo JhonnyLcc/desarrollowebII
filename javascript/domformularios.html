@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+        <p>
+            <button onclick="toggleForm('content_first')">First</button>
+            <button onclick="toggleForm('content_second')">Second</button>
+            <button onclick="toggleForm('content_third')">Third</button>
+            </p>
+        </p>
+            <div class="content" id="content_first" hidden>
+                <form>
+                     <label for = "nombre1" > Nombre1:</label>
+                     <input type="text" id="nombre1">
+                    <button type="submit" > enviar</button>
+                </form>
+             </div><!-- #content_first -->
+
+             <br>
+            <div class="content" id="content_second" hidden>
+                <form>
+                    <label for = "nombre2" > Nombre2:</label>
+                    <input type="text" id="nombre2">
+                   <button type="submit" > enviar</button>
+               </form>
+            </div><!-- #content_second -->
+
+            <br>
+            <div class="content" id="content_third" hidden>
+                <form>
+                    <label for = "nombre3" > Nombre3:</label>
+                    <input type="text" id="nombre3">
+                   <button type="submit" > enviar</button>
+               </form>
+            </div><!-- #content_third -->
+
+            <br>
+          <script>
+            function toggleForm(formId){
+                var forElement=document.getElementById(formId);
+                forElement.hidden = !forElement.hidden;
+            }
+          </script>
+</body>
+</html>
