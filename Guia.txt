@@ -74,3 +74,36 @@ otros:
 https://github.com/LucasKruse/Calculadora.git
 https://github.com/HeymeCoraspe/Juego_Blackjack.git
 https://github.com/isradev-git/ChessWave.git
+
+
+clase 11---------------
+
+la segunda actividad va ser modificar un proyecto hecho con jquery
+https://github.com/Rocio2005/EasyWally.git
+https://github.com/northerchild/Slider-super-facil.git
+https://github.com/JuanCamilo4/PiedraPapelTijera.git
+https://github.com/nabil2000nahid/Login-form-and-Sign-up-form.git
+https://github.com/Juancarlosyepez/3_jQuery_ProyectoFinal_JuanCarlos_Yepez.git
+
+--este sera el proyecto
+https://github.com/IssacCloudIX/Formulario-Baja.git
+
+
+implementar boostrap
+
+
+clase 12--------------------------
+hacer un form utulizando jquery, con html y por medio almacenar por array, los datos que tiene que registrar son datos
+de un estudiante
+
+datos:
+- ci (entero
+- nobre (string
+- fecha (date
+- direccion (string
+
+qu se hacen con esos datos, guardarlos en un array, el cual hay que listarlo
+
+
+- convertir el formulario o formatear el formulario y el listado para utilizar hojas de estilo, como recomendacion boostrap integrar dentro del formulario
+
