@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Estudiantes</title>
+  <!-- Enlace al archivo CSS de Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h2>Registro de Estudiantes</h2>
+    <form>
+      <div class="mb-3">
+        <label for="ci" class="form-label">CI</label>
+        <input type="text" class="form-control" id="ci">
+      </div>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre">
+      </div>
+      <div class="mb-3">
+        <label for="fecha" class="form-label">Fecha</label>
+        <input type="date" class="form-control" id="fecha">
+      </div>
+      <div class="mb-3">
+        <label for="direccion" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="direccion">
+      </div>
+      <button type="button" class="btn btn-primary" id="btnGuardar">Guardar</button>
+    </form>
+    <br>
+    <h2>Listado de Estudiantes</h2>
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">CI</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Fecha</th>
+          <th scope="col">Dirección</th>
+        </tr>
+      </thead>
+      <tbody id="studentList"></tbody>
+    </table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Enlace al archivo JavaScript de Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      var estudiantes = [];
+
+      $("#btnGuardar").click(function() {
+        var ci = $("#ci").val();
+        var nombre = $("#nombre").val();
+        var fecha = $("#fecha").val();
+        var direccion = $("#direccion").val();
+
+        var estudiante = {
+          ci: ci,
+          nombre: nombre,
+          fecha: fecha,
+          direccion: direccion
+        };
+
+        estudiantes.push(estudiante);
+        mostrarEstudiantes();
+      });
+
+      function mostrarEstudiantes() {
+        $("#studentList").empty();
+        estudiantes.forEach(function(estudiante) {
+          $("#studentList").append("<tr><td>" + estudiante.ci + "</td><td>" + estudiante.nombre + "</td><td>" + estudiante.fecha + "</td><td>" + estudiante.direccion + "</td></tr>");
+        });
+      }
+    });
+  </script>
+</body>
+</html>
