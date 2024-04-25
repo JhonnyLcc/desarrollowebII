@@ -1,0 +1,140 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #2C3539;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.page1{
+	margin-left: 80px;
+	text-align: center;
+	color: white;
+	margin-top: 140px;
+	
+}
+.button{
+	border: none;
+	width: 300px;
+	height: 70px;
+	font-size: 45px;
+	background: #FF003B;
+	color: white;
+	border-radius: 4px;
+	transition: ease-out 0.3s;
+}
+.button:hover{
+box-shadow: inset 300px 0 0 0 yellow;
+}
+.na{
+	background: none;
+	border: 2px solid white;
+	width: 400px;
+	display: none;
+}
+.page2{
+	width: 700px;
+	height: 700px;
+	border: 2px solid #FF003B;
+	margin-left: 35%;
+	margin-top: 50px;
+	color: white;
+	box-shadow: 3px 3px 10px 5px yellow;
+	display: none;
+}
+.label{
+	font-size: 25px;
+	text-align: right;
+	cursor: pointer;
+}
+.input{
+	width: 400px;
+	height: 30px;
+	display: block;
+	border: none;
+}
+.submit{
+	margin-left: 123px;
+	width: 150px;
+	height: 30px;
+	font-size: 25px;
+	background: #FF003B;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	transition: ease-out 0.3s;
+}
+.submit:hover{
+box-shadow: inset 300px 0 0 0 yellow;
+}
+.submit1{
+	margin-left: 25px;
+	width: 350px;
+	height: 40px;
+	font-size: 25px;
+	color: white;
+	background:none;
+	border: 1px solid white;
+	transition: ease-out 0.3s;
+
+}
+.submit1 a{
+	color: white;
+}
+.submit1:hover{
+	box-shadow: inset 350px 0 0 0 yellow;
+}
+.page3{
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	display: none;
+}
+.page4{
+	width: 700px;
+	height: 700px;
+	border: 2px solid #FF003B;
+	margin-left: 35%;
+	margin-top: 15px;
+	color: white;
+	box-shadow: 3px 3px 10px 5px yellow;
+	display: none;
+}
+.signup{
+	font-size: 25px;
+	text-align: right;
+	cursor: pointer;
+}
+.signups{
+	margin-left: 123px;
+	width: 150px;
+	height: 30px;
+	font-size: 25px;
+	background: #FF003B;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	transition: ease-out 0.3s;
+}
+.signups:hover{
+	box-shadow: inset 350px 0 0 0 yellow;
+}
+.page5{
+	color: white;
+	text-align: center;
+	display: none;
+	margin-top: 10%;
+	margin-left: 35%;
+}
+.loginnow{
+	margin-left: 10px;
+	font-size: 25px;
+	background: #FF003B;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	transition: ease-out 0.3s;
+}
+.loginnow:hover{
+	box-shadow: inset 350px 0 0 0 yellow;
+}
