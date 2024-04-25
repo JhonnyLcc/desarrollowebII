@@ -14,6 +14,43 @@ body, html
     background-image: linear-gradient(to right top, #302387, #36359d, #3a46b3, #3e58c9, #406ae0, #4d76ea, #5981f3, #658dfd, #7995fc, #8a9dfb, #98a5fa, #a6aef9);
 }
 
+/*
+    CAMBIOS REALIZADOS:
+        - cambio de color a Azul
+        - Cambio de logos a logos relacionados con la UPDS
+        - Cambio de texto principal a '¡Bienvenido al sistema de registro <br> de baja de la Universidad Privada Domingo Sabio!'
+        - Cambio de forma a los botones del formulario inicial
+        - cambio de color a los botones por un azul del formulario inicial
+
+        Frm Registrar:
+        - Cambio de posicion del cuadro de color del formulario
+        - Cambio de color a las letras por 'Blanco'
+        - Cambio de color del fondo por un azul oscuro
+        - Cambio de posicion de la imagen a la derecha
+
+        Frm Eliminar:
+        - Cambio de color a los botones(azul) como a las letras(blanco)
+
+        Frm Buscar:
+        - Cambio de color a los botones(azul) como a las letras(blanco)
+
+        Frm Actualizar:
+        - Cambio de color a los botones(azul) como a las letras(blanco)
+
+            - Frm Actualizar interior:
+            - Cambio de posicion del cuadro de color del formulario(por un azul oscuro)
+            - Cambio de color a las letras por 'Blanco'
+            - Cambio de color del fondo por un azul oscuro
+            - Cambio de posicion de la imagen a la derecha
+            - cambio de color a los botones(por un azul)
+
+        Frm Reporte:
+        - Ajuste del listado de los registros
+        - cambio de color a los botones(por uno azul).
+*/
+
+
+
 .header
 {
     display: flex;
@@ -206,6 +243,9 @@ body, html
     height: 820px;
 }
 
+/*
+    - botones del form Actualizar
+*/
 #dataAct button
 {
     background-color: #0b55c4;
@@ -400,9 +440,6 @@ body, html
 }
 
 
-/*
-    codigo modificado
-*/
 
 
 
