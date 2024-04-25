@@ -108,5 +108,9 @@ qu se hacen con esos datos, guardarlos en un array, el cual hay que listarlo
 
 - convertir el formulario o formatear el formulario y el listado para utilizar hojas de estilo, como recomendacion boostrap integrar dentro del formulario
 
+
+
+https://github.com/jhonnyleonc/desarrollowebII/tree/5003ca0886968d0f0f931caeecd9312e1d775cf6/dw2-Actividad02/Formulario-Baja-main
+
 =======
 >>>>>>> 2f7b308ca12988c4032477b3b8b7f202e88c4b51
